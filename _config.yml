@@ -1,13 +1,16 @@
 # Site settings
 title: What's Your Tech Stack?
 email: arsdehnel@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   This site is meant to be a place for sharing tech stacks that are in use.  No requirements for authors to be professional
   or have some crazy new revelation for a stack.  Just a simple place for developers to share their situations and what they
   ended up with for stacks.
+footer_note: >
+  This is a footer note.
 baseurl: "/whats-your-tech-stack"
 url: "http://arsdehnel.github.io/whats-your-tech-stack"
 github_username:  arsdehnel
+twitter_username: arsdehnel
 
 # Build settings
 markdown: kramdown

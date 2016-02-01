@@ -2,21 +2,32 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    // border-top: 5px solid $grey-color-dark;
+    border-bottom: 3px solid #999;
     min-height: 56px;
+    display: flex;
+    background: #eee;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
+    display: flex;      // to line up the icon and title text
+    flex: 3 0 0;        // it gets 3/4 of the header space
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
+    margin: 0;
+    .site-icon {
+        flex: 1 0 0;
+        padding: .5em;
+        height: 70px;
+        // width: 60px;
+    }
+    a {
+        flex: 3 0 0;
+    }
     &,
     &:visited {
         color: $grey-color-dark;
@@ -24,7 +35,7 @@
 }
 
 .site-nav {
-    float: right;
+    flex: 1 0 0;
     line-height: 56px;
 
     .menu-icon {
@@ -92,11 +103,14 @@
  * Site footer
  */
 .site-footer {
+    background: #444;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
+    flex: 0 0 100%;                                 // so it gets the full width of the footer
+    color: white;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
@@ -108,6 +122,7 @@
 }
 
 .footer-col-wrapper {
+    flex: 0 0 100%;
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
@@ -210,8 +225,13 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
+
     h2 {
-        font-size: 32px;
+        font-size: 1.25em;
+        font-weight: 900;
+        border-top: 1px solid #ccc;
+        background: #f6f6f6;
+        padding: .25em;
 
         @include media-query($on-laptop) {
             font-size: 28px;

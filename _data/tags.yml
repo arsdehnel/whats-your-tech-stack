@@ -1,0 +1,14 @@
+- slug: java
+  name: Java
+
+- slug: oracle
+  name: Oracle
+
+- slug: php
+  name: PHP
+
+- slug: nodejs
+  name: Nodejs
+
+- slug: mysql
+  name: MySQL

@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    flex-flow: row wrap;
+    .page-heading {
+        flex: 1 0 100%;
+    }
+}
+.post-list {
+    flex: 1 0 0;
+}
+.site-description {
+    flex: 2 0 0;
+}
