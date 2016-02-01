@@ -2,11 +2,13 @@
 title: What's Your Tech Stack?
 email: arsdehnel@gmail.com
 description: >
-  This site is meant to be a place for sharing tech stacks that are in use.  No requirements for authors to be professional
-  or have some crazy new revelation for a stack.  Just a simple place for developers to share their situations and what they
-  ended up with for stacks.
+  Let's have a chat about tech stacks.  No rants. No fancy charts and graphs. No corporate angle.
+  Just talk about what you've got for a tech stack, where you came from, where you're going and why you chose what you chose.
+  We will all learn from each other and have a good conversation about it.  Simple. As. That.
 footer_note: >
-  This is a footer note.
+  Please contribute your thoughts to the discussion!  This site is maintained through github pages so if you have thoughts,
+  corrections or feedback please submit an issue or a pull request.  If you have a stack you want to submit please check the
+  template post or submit it through an issue as well.
 baseurl: "/whats-your-tech-stack"
 url: "http://arsdehnel.github.io/whats-your-tech-stack"
 github_username:  arsdehnel

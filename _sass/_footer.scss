@@ -1,0 +1,33 @@
+/**
+ * Site footer
+ */
+.site-footer {
+    background: #444;
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    color: white;
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.social-media-list {
+    flex: 2 0 0;
+    ul {
+        list-style: none;
+        margin-left: 0;
+    }
+    svg path {
+        fill: white;
+    }
+    a {
+        color: #99f;
+    }
+}
+
+.footer-note {
+    flex: 3 0 0;
+    color: #ccc;
+}
